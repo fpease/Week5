@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text Properties</title>
+    <style>
+        html{
+            background-color:black;
+            color:white;
+            
+        }
+
+        .container{
+            width:50%;
+            background-color: grey;
+            padding:50px;
+            margin:auto;
+            border: 15px solid green;
+        }
+
+        .container h1{
+            text-align:center;
+            color: white;
+            background-color:black;
+            padding:50px;
+            text-shadow: 5px 5px red;
+            letter-spacing:3px;
+            font-size:2.5em;
+        }
+
+        .wrapper{
+            width:50%;
+            background-color: grey;
+            padding:50px;
+            margin:auto;
+            border: 15px solid green;
+        }
+
+        .wrapper h2{
+            text-align:center;
+            color: white;
+            background-color:black;
+            padding:25px;
+            text-shadow: 5px 5px red;
+            letter-spacing:3px;
+            font-size:1.5em;
+        }
+
+        ul.list{
+            text-align:center;
+            list-style-position: inside;
+            background-color: lightgrey;
+            width: 50%;
+            border: 15px solid green;
+            padding: 50px;
+            margin: auto;
+        }
+
+        ul.list li{
+            color: white;
+            background-color:black;
+            list-style-type:none;
+            line-height:2em;
+            font-size: 1.25rem; 
+        }
+
+        .alignment{
+            width:50%;
+            background-color: grey;
+            padding:50px;
+            margin:auto;
+            border: 15px solid green;
+            text-align: right;
+        }
+
+        .alignment h2{
+            text-align:center;
+            color: white;
+            background-color:black;
+            padding:25px;
+            text-shadow: 5px 5px red;
+            letter-spacing:3px;
+            font-size:2.5em;
+        }
+
+        /*.alignment p{
+            text-align:right;
+            background-color: lightgrey;
+            width: 50%;
+            border: 15px solid green;
+            padding: 50px;
+            margin: auto;
+        }*/
+
+        .decoration{
+            width:50%;
+            background-color: grey;
+            padding:50px;
+            margin:auto;
+            border: 15px solid green;
+            text-align: right;
+        }
+
+        .decoration h2{
+            text-align:center;
+            color: white;
+            background-color:black;
+            padding:25px;
+            text-shadow: 5px 5px red;
+            letter-spacing:3px;
+            font-size:2.5em;
+        }
+
+
+        #para1{
+             text-align :left;
+             background-color: black;
+             color:white;
+             margin-top:-20px;
+             padding: 25px;
+             
+        }
+        #para2{
+            text-align: right;
+            margin-top:-20px;
+            background-color: black;
+            color:white;
+            padding:25px;
+        }
+
+        #para3{
+            text-align :left;
+            background-color: black;
+            color:white;
+            margin-top:-20px;
+            padding: 25px;
+            text-decoration: overline;
+        }
+
+        #para4{
+            text-align :center;
+            background-color: black;
+            color:white;
+            margin-top:-20px;
+            padding: 25px;
+            text-decoration: line-through;
+        }
+
+        #para5{
+            text-align :right;
+            background-color: black;
+            color:white;
+            margin-top:-20px;
+            padding: 25px;
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container"> 
+        <h1> Cascading Style Sheet </h1>
+    </div>
+
+    <div class="wrapper">
+        <h2> Text Properties</h2>
+        <ul class="list">
+            
+            <li class="list ">Text Alignment</li>
+            <li class="list ">Text Decoration</li>
+            <li class="list ">Text Transformation</li>
+            <li class="list ">Text Shadow</li>
+            <li class="list ">Text Direction</li>
+            <li class="list ">Vertical Alignment</li>
+            <li class="list ">Text Indent</li>
+            <li class="list ">Letter Spacing</li>
+            <li class="list ">Line Height</li>
+            <li class="list ">Word Spacing</li>
+        </ul>
+    </div>
+
+        <div class="alignment">
+        <h2> Text Alignment</h2>
+        <p id ="para1"> A text can be left or right aligned, centred or justified.</p>
+        <p id="para2">  A text can be left or right aligned, centred or justified.</p>
+        </div>
+
+        <div class="decoration"> 
+        <h2> Text Decoration</h2>
+        <p id="para3">Text Decoration property is used to set or remove decorations from text.</p>
+        <p id="para4">Text Decoration property is used to set or remove decorations from text.</p>
+        <p id="para5">Text Decoration property is used to set or remove decorations from text.</p>
+        </div>
+        
+
+</body>
+</html>
